@@ -3,7 +3,7 @@ testing preview functions
 
 ```
   simple1:
-    git_url: https://github.com/lvangool/simple1.git
+    git_url: https://github.com/lvangool/simplebuild1.git
     git_branch: main
     ports:
     - container: 8050
@@ -11,7 +11,7 @@ testing preview functions
       https: 443
     command: "/go/src/app/app --port=8050 --dport=8051 --dip=simple2.sampler"
   simple2:
-    git_url: https://github.com/lvangool/simple2.git
+    git_url: https://github.com/lvangool/simplebuild2.git
     git_branch: main
     ports:
     - container: 8051
